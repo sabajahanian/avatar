@@ -1,0 +1,104 @@
+html,
+body,
+#container {
+    background-color: #faebd7;
+    height: 100%;
+}
+
+.main-style{
+    display: flex;
+}
+
+.show-box{
+    width: 300px;
+    height: 400px;
+    background-color: #f4f4f4;
+    border: 2px solid #000;
+}
+
+.recent-panel{
+    width:400px;
+    height: 100%;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.recent-panel-title{
+    font-size: 20px;
+    padding-bottom: 25px;
+    display: block;
+}
+
+.recent-panel-activity{
+    height: 537px;
+}
+
+.save-button{
+    display: flex;
+    text-decoration: none;
+    border: 2px solid #000;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.save-button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.import-button{
+    display: flex;
+    text-decoration: none;
+    border: 2px solid #000;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 18px;
+}
+
+.import-button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.main-panel{
+    width: 600px;
+    padding: 20px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.shape-panel{
+    border: 2px solid #000;
+    padding: 20px;
+    width: 430px;
+}
+
+.title-shape-eye,
+.title-shape-hair,
+.title-shape-lip{
+    display: block;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.image-shape-eye,
+.image-shape-hair,
+.image-shape-lip{
+    padding-bottom: 20px;
+    cursor: pointer;
+}
