@@ -10,14 +10,12 @@ body,
 }
 
 .show-box{
-    width: 300px;
-    height: 400px;
     background-color: #f4f4f4;
     border: 2px solid #000;
 }
 
 .recent-panel{
-    width:400px;
+    width:250px;
     height: 100%;
     padding: 20px;
     border: 2px solid #000;
@@ -81,24 +79,27 @@ body,
     align-items: center;
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 
 .shape-panel{
     border: 2px solid #000;
     padding: 20px;
-    width: 430px;
+    width: 412px;
 }
 
 .title-shape-eye,
 .title-shape-hair,
-.title-shape-lip{
+.title-shape-nose{
     display: block;
     padding-bottom: 20px;
     font-size: 20px;
 }
-.image-shape-eye,
-.image-shape-hair,
-.image-shape-lip{
+.image{
     padding-bottom: 20px;
     cursor: pointer;
+}
+
+.shape-nose{
+    padding-bottom: 50px;
 }
